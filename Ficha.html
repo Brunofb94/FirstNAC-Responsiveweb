@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ficha Cadastral</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="ficha.css">
+        <body>
+            <h1>Ficha Cadastral</h1>
+            <div id = "fome">
+            <fieldset class="kopo">
+                <legend>Dados Pessoais</legend>
+            <form id = "fm"action="Dados pessoais"> 
+
+            <label for="nomes">Nome:</br>
+                <input type= "text" name="nome" size ="60" placeholder="Digite seu nome"><br>
+            </label> 
+            <label id = "bk"for="CPF"> CPF:<br>
+                <input type="text" name="cpf"><br>
+            </label> 
+            <label for="rg"> RG:<br>
+                <input type="text" name="rg"><br>
+
+            </label>
+            
+            <label for="end">
+                Endereço:<br>
+                <input type="text" name="Endereço" size="60"><br>
+            </label>
+            <label id="dt" for="Data de Nascimento">
+                    Data de Nascimento:<br>
+                    <input type="datetime-local"><br>
+            </label> 
+                Gênero:<br>
+                <Select >
+                    <option value="Feminino" >Feminino</option>
+                    <option value="Masculino">Masculino</option>
+                </Select><br>
+             
+                Situação civil:<br>
+                Solteiro(o)<input  type="radio" name="stv" value="Solteiro(o)"> 
+                Casado(a)<input  type="radio" name="stv" value="Solteiro(o)"> 
+                Viúva(o)<input   type="radio" name="stv" value="Solteiro(o)"> 
+                <br>
+                <center><button type="button">Cadastrar </button></center>
+
+            </form>
+        </div>
+        </fieldset>
+        </body>
+    </head>
+</html>

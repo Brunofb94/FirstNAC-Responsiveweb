@@ -1,0 +1,42 @@
+#fome {
+    margin-left: 0 auto;
+    margin-right: 20%;
+}
+#fome .kopo{
+    margin-left: 30%;
+    position: center; 
+    
+}
+h1 {
+    text-align: center;
+}
+form{
+    position: center;
+}
+
+#bk {
+    float: right;
+    bottom: 20%;
+    width: 60%;
+    
+}
+button{
+    font-size: 20px;
+    text-align: center;
+    padding: 6px;
+}
+#dt {
+    float: right;
+    width: 60%;
+}
+input {
+    color: darkgray;
+    background-color:  #ddd;
+    font: Arial;
+    padding: 2px;
+    margin: 1px;
+}
+select{
+    background-color:  #ddd;
+    color: darkgray;
+}
